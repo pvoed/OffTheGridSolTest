@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+        http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+	version="2.4">
+
+	<servlet>
+		<servlet-name>homePage</servlet-name>
+		<servlet-class>website.web.homeServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>productPage</servlet-name>
+		<servlet-class>website.web.productsServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>locationHoursPage</servlet-name>
+		<servlet-class>website.web.locationHoursServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>contactUsPage</servlet-name>
+		<servlet-class>website.web.contactUsServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>termsOfUse</servlet-name>
+		<servlet-class>website.web.termsOfUse</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>designerDevelopment</servlet-name>
+		<servlet-class>website.web.designAndDevelopmentServlet</servlet-class>
+	</servlet>
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>homePage</servlet-name>
+		<url-pattern>/home</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>productPage</servlet-name>
+		<url-pattern>/products</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>locationHoursPage</servlet-name>
+		<url-pattern>/locationHours</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>contactUsPage</servlet-name>
+		<url-pattern>/contactUs</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>termsOfUse</servlet-name>
+		<url-pattern>/termsOfUse</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>designerDevelopment</servlet-name>
+		<url-pattern>/designerDevelopment</url-pattern>
+	</servlet-mapping>
+
+</web-app>
