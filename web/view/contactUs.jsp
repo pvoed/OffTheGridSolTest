@@ -7,18 +7,7 @@
 <head>
 
 <!-- ***CSS LOAD -->
-
-
-<!-- ***STYLE*** -->
-<style>
-a:hover { /* Why is this functionality only work locally??? */
-	font-family: ISOCT_IV50;
-	color: black;
-	text-decoration: none;
-}
-</style>
-
-<link rel="stylesheet" href="view/styleSheet.css" ... />
+<link rel="stylesheet" href="view/styleSheet.css" />
 <!--</center> -->
 </head>
 <!-- ***END OF HEADER*** -->
@@ -26,17 +15,9 @@ a:hover { /* Why is this functionality only work locally??? */
 <!-- ***BODY*** -->
 <body>
 	<!-- ***TITLE BANNER*** -->
-<div class="headerNewspaper">
+
 	<img id="image1"  src="view/images/OGS_Header.png">
-		<h1>Welcome to O.G.S.</h1>
-	<p>
-		O.G.S. provides renewable utility systems designed to manifest<br>
-		the continued growth of our customer and partners. O.G.S. takes<br>
-		an innovative approach by coupling our customers available resources<br>
-		with our partner's latest technologies to create a sustainable future<br>
-		for all of us.
-	</p>
-</div>
+
 
 	<!-- ***TOP OF PAGE NAVIGATION BAR*** -->
 
@@ -62,7 +43,6 @@ a:hover { /* Why is this functionality only work locally??? */
 	
 </div>
 	<!-- ***FOOTER BOTTOM MENU*** -->
-	<!--  <div class="footer"> //fixed bottom-->
 	<div class="footer">
 		<div class="footer_contents">
 			<div class="transbox">
@@ -81,7 +61,7 @@ a:hover { /* Why is this functionality only work locally??? */
 						href="http://localhost:8080/offTheGridSol/termsOfUse"> Terms
 						Of Use</a> - <a
 						href="http://localhost:8080/offTheGridSol/designerDevelopment">
-						Web Development & Design </a>
+						Web Development and Design </a>
 				</div>
 			</div>
 		</div>

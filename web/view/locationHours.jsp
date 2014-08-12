@@ -1,22 +1,10 @@
 <!DOCTYPE html>
 <html>
 
-
-
 <!-- ***HEADER*** -->
 <head>
-
-<!-- ***CSS LOAD -->
-
-
 <!-- ***STYLE*** -->
 <style>
-a:hover { /* Why is this functionality only work locally??? */ 
-	font-family: ISOCT_IV50;
-	color: black;
-	text-decoration: none;
-}
-
 #map_canvas {
 	width: 500px;
 	height: 400px;
@@ -35,46 +23,31 @@ a:hover { /* Why is this functionality only work locally??? */
 	}
 	google.maps.event.addDomListener(window, 'load', initialize);
 </script>
-<link rel="stylesheet" href="view/styleSheet.css" ... />
+
+<!-- ***CSS LOAD -->
+<link rel="stylesheet" href="view/styleSheet.css" />
 <!--</center> -->
 </head>
 <!-- ***END OF HEADER*** -->
 
 <!-- ***BODY*** -->
-<body bgcolor="0B1F5C">
-	<!-- ***TITLE BANNER*** -->
+<body>
+	<!-- ***TITLE BANNER*** -->	
+		<img id="image1" src="view/images/OGS_Header.png">
 
-<div class="headerNewspaper">
-	<img id="image1"  src="view/images/OGS_Header.png">
-		<h1>Welcome to O.G.S.</h1>
-	<p>
-		O.G.S. provides renewable utility systems designed to manifest<br>
-		the continued growth of our customer and partners. O.G.S. takes<br>
-		an innovative approach by coupling our customers available resources<br>
-		with our partner's latest technologies to create a sustainable future<br>
-		for all of us.
-	</p>
-</div>
 	<!-- ***HEADER*** -->
 
 	<div class="transbox">
-		<div>
+		<div style="text-align: center">
 			<a href="http://localhost:8080/offTheGridSol/home">Home</a> - <a
-				href="http://localhost:8080/offTheGridSol/products">Products</a>
-
-			- <a href="http://localhost:8080/offTheGridSol/locationHours">Locations/Hours</a>
+				href="http://localhost:8080/offTheGridSol/products">Products</a> - <a
+				href="http://localhost:8080/offTheGridSol/locationHours">Locations/Hours</a>
 			- <a href="http://localhost:8080/offTheGridSol/contactUs">ContactUs</a>
 		</div>
 	</div>
+	<h1>Maps:</h1>
 
-	<div style="text-align: center">
-		<h1>Maps:</h1>
-
-		<div id="map_canvas"></div>
-
-
-
-	</div>
+	<div id="map_canvas"></div>
 </body>
 
 
@@ -98,10 +71,9 @@ a:hover { /* Why is this functionality only work locally??? */
 					href="http://localhost:8080/offTheGridSol/termsOfUse"> Terms Of
 					Use</a> - <a
 					href="http://localhost:8080/offTheGridSol/designerDevelopment">
-					Web Development & Design </a>
+					Web Development and Design </a>
 			</div>
 		</div>
 	</div>
 </div>
-
 </html>

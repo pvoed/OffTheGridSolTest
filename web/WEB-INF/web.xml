@@ -25,11 +25,15 @@
 	</servlet>
 	<servlet>
 		<servlet-name>termsOfUse</servlet-name>
-		<servlet-class>website.web.termsOfUse</servlet-class>
+		<servlet-class>website.web.termsOfUseServlet</servlet-class>
 	</servlet>
 	<servlet>
 		<servlet-name>designerDevelopment</servlet-name>
 		<servlet-class>website.web.designAndDevelopmentServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>resume</servlet-name>
+		<servlet-class>website.web.resumeServlet</servlet-class>
 	</servlet>
 
 
@@ -61,6 +65,10 @@
 	<servlet-mapping>
 		<servlet-name>designerDevelopment</servlet-name>
 		<url-pattern>/designerDevelopment</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>resume</servlet-name>
+		<url-pattern>/resume</url-pattern>
 	</servlet-mapping>
 
 </web-app>
